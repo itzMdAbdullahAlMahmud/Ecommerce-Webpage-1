@@ -21,6 +21,7 @@ header .top_header {
   display: flex;
   justify-content: space-between;
   height: 90px;
+  padding-bottom: 55px;
   align-items: center;
 }
 
@@ -111,7 +112,7 @@ header .top_header .cart_favourite_profile .favourites {
  ============================*/
 
 .bottom_header {
-  height: 35px;
+  min-height: 35px;
 }
 
 .bottom_header nav ul {
@@ -123,7 +124,7 @@ header .top_header .cart_favourite_profile .favourites {
 }
 
 .bottom_header nav ul li {
-  padding-right: 35px;
+  margin-right: 35px;
 }
 
 .bottom_header nav ul li a {
@@ -357,6 +358,31 @@ main .product_buy .dealing_section .offer svg {
   }
 
   main .product_buy .dealing_section {
+    width: 100%;
+  }
+
+  .bottom_header nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .top_header {
+    height: 300px;
+  }
+
+  .bottom_header nav ul li {
+    margin: 0 35px 10px 0;
+    padding: 0;
+    height: auto;
+  }
+
+  header .top_header {
+    position: relative;
+  }
+
+  header .top_header .searchbar_div {
+    position: absolute;
+    top: 75px;
     width: 100%;
   }
 }
