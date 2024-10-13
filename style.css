@@ -344,3 +344,19 @@ main .product_buy .dealing_section .cart-favourites .favourite_button {
 main .product_buy .dealing_section .offer svg {
   margin-right: 3px;
 }
+
+@media(max-width:600px) {
+  main .product_buy {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main .product_buy .preview {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  main .product_buy .dealing_section {
+    width: 100%;
+  }
+}
